@@ -1,0 +1,15 @@
+{
+  "name": "postaway-ii",
+  "version": "1.0.0",
+  "description": "Social Media Backend REST-API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Postaway-II"
+  },
+  "author": "Parmod Kumar",
+  "license": "ISC"
+}
