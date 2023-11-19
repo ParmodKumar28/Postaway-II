@@ -47,8 +47,7 @@ export default class UserRepository{
             }
             return user;
         } catch (error) {
-            // handleDatabaseError(error);
-            throw error;
+            handleDatabaseError(error);
         }
     }
 

@@ -13,12 +13,16 @@ import friendsRouter from './src/features/friends/Routes/friends.routes.js';
 import otpRouter from './src/features/otp/Routes/otp.routes.js';
 import { errorHandlerMiddleware } from './src/middlewares/error-handler.middleware.js';
 import { connectUsingMongoose } from './config/mongooseConfig.js';
+import loggerMiddleware from './src/middlewares/logger.middleware.js';
 
 // Server Created
 const app = express();
 
 // Json parser
 app.use(express.json());
+
+// Logging requests
+app.use(loggerMiddleware);
 
 // Routes related to all features
 app.use('/api/users', userRouter);
