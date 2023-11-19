@@ -1,3 +1,6 @@
+// Importing env
+import './env.js'
+
 // Modules Imported
 import express from 'express';
 
@@ -8,6 +11,8 @@ import commentRouter from './src/features/comment/Routes/comment.routes.js';
 import likeRouter from './src/features/like/Routes/like.routes.js';
 import friendsRouter from './src/features/friends/Routes/friends.routes.js';
 import otpRouter from './src/features/otp/Routes/otp.routes.js';
+import { errorHandlerMiddleware } from './src/middlewares/error-handler.middleware.js';
+import { connectUsingMongoose } from './config/mongooseConfig.js';
 
 // Server Created
 const app = express();
@@ -28,16 +33,18 @@ app.use('/api/otp', otpRouter);
 // Default route
 app.get('/', (req,res)=>{
     res.status(200).send("Welcome to the Social Media REST-API's");
-})
+});
 
 // Error handler
+app.use(errorHandlerMiddleware);
 
 // 404 Route middelware handles 404 requests
 app.use((req,res)=>{
     res.status(404).send("API not found please give valid API.");
-})
+});
 
 // Server is listening here
 app.listen('8000', ()=>{
     console.log("Server is listening on: localhost:8000");
-})
+    connectUsingMongoose();
+});
