@@ -23,12 +23,12 @@ userRouter.post('/signin', (req,res,next)=>{
 });
 
 // Log out the currently logged-in user.
-userRouter.get('/logout', (req,res,next)=>{
+userRouter.get('/logout', jwtAuth, (req,res,next)=>{
     usersController.Logout(req,res,next);
 });
 
 // Log out the user from all devices.
-userRouter.get('/logout-all-devices', (req,res,next)=>{
+userRouter.get('/logout-all-devices', jwtAuth, (req,res,next)=>{
     usersController.LogoutFromAllDevices(req,res,next);
 });
 
@@ -36,12 +36,12 @@ userRouter.get('/logout-all-devices', (req,res,next)=>{
 // User Profile Routes
 
 // Retrieve user information, ensuring sensitive data like passwords is not exposed.
-userRouter.get('/get-details/:userId',(req,res,next)=>{
+userRouter.get('/get-details/:userId', jwtAuth, (req,res,next)=>{
     usersController.GetUserDetails(req,res,next);
 });
 
 // Retrieve information for all users, avoiding display of sensitive credentials like passwords.
-userRouter.get('/get-all-details',(req,res,next)=>{
+userRouter.get('/get-all-details', jwtAuth, (req,res,next)=>{
     usersController.GetUsers(req,res,next);
 });
 

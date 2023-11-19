@@ -20,6 +20,7 @@ const app = express();
 
 // Json parser
 app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
 // Logging requests
 app.use(loggerMiddleware);

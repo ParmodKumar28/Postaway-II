@@ -8,18 +8,21 @@ const dir = 'C:/Users/MSI 1/Desktop/Projects Container/Backend Projects/Postaway
 
 // 3. Create the uploads directory if it doesn't exist.
 if(!fs.existsSync(dir)){
-    fs.mkdirSync(dir, {recursive: true});
+    fs.mkdirSync(dir, { recursive: true });
 }
 
-// 4. Configure storage with the filename and location.
+// 4. Configure storage with filename and location.
 const storage = multer.diskStorage({
-    destination: (req,file,cb)=>{
+    destination : (req, file, cb) => {
         cb(null, dir);
     },
-    filename: (req,file,cb)=>{
+    filename : (req, file, cb) => {
         cb(null, new Date().toISOString().replace(/:/g, '-') + path.extname(file.originalname));
-    }
-})
+    },
+});
 
-// 5. Using multer to upload the file and pass the storage.
-export const upload = multer({storage : storage});
+// 5. Using multer to upload the file and pass the storage
+export const upload = multer({
+    storage : storage,
+    limits: {fileSize: 5 * 1024 * 1024}
+});

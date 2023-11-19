@@ -28,6 +28,10 @@ export default class UserController{
             user.password = hashedPassword;
             // Calling signUp function in repository.
             const newUser = await this.userRepository.signUp(user);
+            if(!newUser)
+            {
+                throw new ApplicationError("New user cannot added something went wrong.", 400);
+            }
             // Sending response.
             return res.status(201).json({
                 success: true,
@@ -154,19 +158,24 @@ export default class UserController{
     // Updating user by id.
     async UpdateUser(req, res, next) {
         try {
-            const id = req.params.userId;
-            if (!id) {
+            const Id = req.params.userId;
+            const userID = req.userID;
+            if (!Id) {
                 throw new ApplicationError("Please enter user id", 400);
             }
-            
+
+            if( Id != userID)
+            {
+                throw new ApplicationError("You are not allowed to update this user data.", 400);
+            }
             const userDataToUpdate = req.body;
             if (!userDataToUpdate || Object.keys(userDataToUpdate).length === 0) {
                 throw new ApplicationError("Please enter user data to update", 400);
             }
     
-            const updatedUser = await this.userRepository.updateById(id, userDataToUpdate);
+            const updatedUser = await this.userRepository.updateById(Id, userDataToUpdate, userID);
             if (!updatedUser) {
-                throw new ApplicationError("No user found by this id", 404);
+                throw new ApplicationError("User data is not updated something went wrong", 404);
             }
     
             return res.status(200).json({
