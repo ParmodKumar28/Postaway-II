@@ -37,7 +37,7 @@ postRouter.delete('/:postId', jwtAuth, (req,res,next)=>{
 });
 
 // Update a specific post.
-postRouter.put('/:postId', jwtAuth, (req,res,next)=>{
+postRouter.put('/:postId', jwtAuth, upload.single('imageUrl'), (req,res,next)=>{
     postsController.updatePost(req,res,next);
 });
 

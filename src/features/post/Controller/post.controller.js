@@ -62,39 +62,52 @@ export default class PostController{
     }
 
     // Update a specific post.
-    async updatePost(req,res,next){
+    async updatePost(req, res, next) {
         try {
             const postId = req.params.postId;
-            console.log(req.body);
-            const updatedPostData = req.body;
+            const caption = req.body.caption;
+    
+            const updatedPostData = {
+                caption: caption // Assign the caption from the request body
+            };
+    
+            if (req.file) {
+                const imageUrl = req.file.filename; // Correct the access to filename
+                updatedPostData.imageUrl = imageUrl; // Assign the imageUrl to updatedPostData
+            }
+    
             console.log(updatedPostData);
-            if(!updatedPostData || Object.keys(updatedPostData).length === 0)
-            {
-                throw new ApplicationError("Enter details of post needs that to be updated.", 400);
+    
+            if (!updatedPostData || Object.keys(updatedPostData).length === 0) {
+                throw new ApplicationError("Enter details of the post that need to be updated.", 400);
             }
-            if(!postId)
-            {
-                throw new ApplicationError("postId is not recieved enter postId.", 400);
+    
+            if (!postId) {
+                throw new ApplicationError("postId is not received. Please enter the postId.", 400);
             }
+    
             const userID = req.userID;
-            if(!userID)
-            {
-                throw new ApplicationError("User id not recieved.", 400);
+    
+            if (!userID) {
+                throw new ApplicationError("User id not received.", 400);
             }
-            const updatedPost = await this.postRepository.update(postId,userID,updatedPostData);
-            if(!updatedPost)
-            {
-                throw new ApplicationError("Post not updated something went wrong.", 404);
+    
+            const updatedPost = await this.postRepository.update(postId, userID, updatedPostData);
+    
+            if (!updatedPost) {
+                throw new ApplicationError("Post was not updated. Something went wrong.", 404);
             }
+    
             return res.status(201).json({
                 success: true,
                 updatedPost: updatedPost,
-                msg:"Post updated successfully."
+                msg: "Post updated successfully."
             });
         } catch (error) {
             next(error);
         }
     }
+    
 
     // Retrieve all posts for a specific user to display on their profile page.
     async getUserPosts(req,res,next){

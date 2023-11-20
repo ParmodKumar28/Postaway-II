@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 
 // Centralized error handling for database errors
 const handleDatabaseError = (error)=>{
-    console.log(error); // Logging error for debugging
     if(error instanceof mongoose.Error.ValidationError){
         throw error;
     }else{
