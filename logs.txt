@@ -1,1 +1,389 @@
 {"level":"error","message":"Error in loggerMiddleware: logData is not defined","service":"request-logging","timestamp":"2023-11-19T12:26:27.827Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:11:40.147Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:12:38.251Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:13:23.123Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:14:05.384Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:15:15.448Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:15:32.610Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:16:03.398Z"}
+{"level":"info","message":"Request Url: / - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:17:58.525Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:25:53.045Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:26:43.368Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:27:17.344Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:30:02.235Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:32:23.882Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:35:31.153Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:37:52.528Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:38:19.538Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:42:06.745Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:43:52.899Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:44:11.698Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:44:26.297Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:45:21.877Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:45:55.232Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:47:00.923Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:47:45.729Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:48:31.830Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:55:21.120Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:56:04.558Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:58:54.689Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:59:25.550Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:59:51.831Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T13:59:58.521Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:01:46.419Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:02:33.159Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:03:24.648Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:05:43.184Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:06:33.203Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:07:21.300Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:07:35.969Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:08:26.980Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:09:04.026Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:09:45.788Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:10:03.815Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:11:34.668Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:12:46.720Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:13:26.535Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:13:49.533Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:15:15.188Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:17:56.614Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:18:43.883Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:22:35.456Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:23:05.913Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:23:24.194Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:32:37.927Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:38:04.070Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:38:21.256Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78ee11a10e2b77b886cb - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:38:51.867Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78ee11a10e2b77b886cb - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:39:44.650Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78ee11a10e2b77b886cb - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:40:18.812Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:40:49.028Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1ddd163d071647a81900 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:40:52.156Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:43:09.913Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:43:19.758Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:43:44.444Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1ddd163d071647a81900 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:44:07.306Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1dccc61d5e0ebaf2eb15 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:44:17.607Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:47:47.863Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:48:12.264Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:48:26.723Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:48:57.645Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T14:49:00.469Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:16:35.043Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:17:05.093Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:18:57.721Z"}
+{"level":"info","message":"Request Url: /api/posts/6 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:19:12.412Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:19:21.202Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:19:27.601Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:20:00.084Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:20:22.813Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:21:21.575Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:24:06.769Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:24:15.359Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:24:33.799Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:24:37.842Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:24:52.322Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:25:45.069Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:26:06.237Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:26:21.516Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1eace2f5406995c20b01 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:26:33.065Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1eace2f5406995c20b01 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:26:35.326Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:28:26.053Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:28:41.130Z"}
+{"level":"info","message":"Request Url: /api/posts/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:28:43.909Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:29:02.024Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1eace2f5406995c20b01 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:29:11.949Z"}
+{"level":"info","message":"Request Url: /api/posts/6559ea8515b266b9116cac32 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:29:36.485Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:30:44.687Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:30:49.682Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:31:02.731Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:31:20.845Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:31:34.987Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:32:33.065Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:34:09.993Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:35:06.677Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:35:49.271Z"}
+{"level":"info","message":"Request Url: /api/posts/655a396511caa0474233641c - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:45:40.847Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:46:33.428Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:50:44.713Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:51:10.421Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:52:07.308Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:52:28.790Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:53:14.378Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:54:01.280Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:54:05.578Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:54:08.079Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:54:33.735Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f15558 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:54:37.234Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:54:40.165Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c38 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:55:05.457Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:55:09.013Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:57:26.513Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:57:38.884Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:57:56.480Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:58:51.140Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T16:58:52.936Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:05:16.796Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:05:18.410Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:06:04.090Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:07:14.399Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:12:13.574Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:12:30.575Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:12:32.120Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:14:16.858Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:14:48.353Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:15:04.067Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:15:05.874Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:15:48.053Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:16:03.068Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:16:26.609Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:16:41.430Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:16:57.132Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:17:18.788Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:19:20.120Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:19:42.249Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:21:36.196Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {\"caption\":\"SuperCars\"}","service":"request-logging","timestamp":"2023-11-19T17:21:55.937Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {\"caption\":\"SuperCars\"}","service":"request-logging","timestamp":"2023-11-19T17:23:01.844Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {\"caption\":\"SuperCars\"}","service":"request-logging","timestamp":"2023-11-19T17:24:06.031Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {\"caption\":\"SuperCars\"}","service":"request-logging","timestamp":"2023-11-19T17:24:07.863Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {\"caption\":\"SuperCars\"}","service":"request-logging","timestamp":"2023-11-19T17:24:09.202Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:26:02.003Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:26:11.961Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:29:27.803Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3ce4db87579a0586a62a - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:30:11.475Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:30:55.023Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:31:15.007Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:31:29.807Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:31:43.975Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1eace2f5406995c20b01 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:32:07.099Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:32:20.834Z"}
+{"level":"info","message":"Request Url: /api/posts/655a393a96e8e89b28751063 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:33:04.549Z"}
+{"level":"info","message":"Request Url: /api/posts/655a396511caa0474233641c - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:33:19.748Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:33:41.436Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:33:54.732Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:34:03.560Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:34:07.734Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:34:21.683Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:34:37.582Z"}
+{"level":"info","message":"Request Url: /api/posts/655a3be9a3bff14540773c3e - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:34:38.999Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:35:04.683Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:35:16.811Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:35:27.607Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:36:35.287Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-19T17:36:36.480Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:26:10.177Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:27:11.437Z"}
+{"level":"info","message":"Request Url: /api/posts/655a396511caa0474233641c - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:27:38.298Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:27:49.786Z"}
+{"level":"info","message":"Request Url: /api/posts/ - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:27:54.241Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:28:03.058Z"}
+{"level":"info","message":"Request Url: /api/posts/all - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:28:07.206Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:28:29.674Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:29:07.193Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:29:57.561Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:30:25.977Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:31:25.634Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:33:00.981Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:33:55.953Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:34:46.324Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:37:04.671Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:41:15.310Z"}
+{"level":"info","message":"Request Url: /api/posts/655a2013144c3f342673dae7 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:41:45.583Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1eace2f5406995c20b01 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:42:35.446Z"}
+{"level":"info","message":"Request Url: /api/posts/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:42:49.045Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:43:06.958Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:43:24.875Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:43:29.231Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:43:39.728Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:43:48.441Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:20.462Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:27.959Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:29.969Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:35.605Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:37.588Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:38.781Z"}
+{"level":"info","message":"Request Url: /api/posts/655aee2f5ced29331b911dc0 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T05:44:39.987Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:46:41.553Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:47:04.335Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:49:28.282Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:49:30.734Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:49:48.074Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:49:52.549Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T06:50:27.960Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T06:51:15.654Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"post\"}","service":"request-logging","timestamp":"2023-11-20T06:51:25.822Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"post\"}","service":"request-logging","timestamp":"2023-11-20T06:51:26.896Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"comment\"}","service":"request-logging","timestamp":"2023-11-20T06:51:41.043Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:51:49.683Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"co\"}","service":"request-logging","timestamp":"2023-11-20T06:52:14.790Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:54:51.939Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:56:07.179Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"comment\"}","service":"request-logging","timestamp":"2023-11-20T06:56:26.557Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"Comment\"}","service":"request-logging","timestamp":"2023-11-20T06:56:31.424Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"p\"}","service":"request-logging","timestamp":"2023-11-20T06:57:14.083Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"p\"}","service":"request-logging","timestamp":"2023-11-20T06:57:31.727Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"p\"}","service":"request-logging","timestamp":"2023-11-20T06:57:35.094Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"khh\"}","service":"request-logging","timestamp":"2023-11-20T06:57:40.364Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T06:57:45.117Z"}
+{"level":"info","message":"Request Url: /api/likes/651e800f87b2295b19e06c46 - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T06:57:51.975Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T06:58:10.344Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:00:35.217Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:00:58.746Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:02:21.483Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:02:41.606Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"post\"}","service":"request-logging","timestamp":"2023-11-20T07:03:20.220Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:03:25.322Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a/toggle - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:03:36.907Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:04:43.728Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:04:55.493Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:04:57.553Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:05:09.647Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:05:39.051Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:05:41.198Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:06:05.021Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:06:38.607Z"}
+{"level":"info","message":"Request Url: /api/likes/655a3ce4db87579a0586a62a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:06:45.535Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:07:47.039Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:08:47.235Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:09:39.532Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:10:56.849Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:12:03.620Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:12:40.714Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:13:38.046Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:14:26.521Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/651e78c8dd1ca36f926ea0fa?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:14:59.316Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:15:33.476Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:16:55.658Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:16:57.528Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:16:58.491Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:17:42.408Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:20:02.054Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:20:05.013Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:20:09.505Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:25:18.768Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Pos - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:25:23.786Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:25:28.484Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:26:09.636Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:26:52.232Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:27:07.153Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:28:14.226Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:28:18.024Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:30:11.763Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:30:13.244Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:30:16.307Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:30:19.175Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:32:57.942Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:33:01.031Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:33:03.321Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:34:01.246Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:34:32.596Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:34:35.193Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:06.911Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:08.171Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:35:15.056Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:35:16.653Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:20.886Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:23.194Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:25.478Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:35:29.218Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:31.364Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T07:35:39.902Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:35:43.058Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:45:18.573Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T07:45:21.466Z"}
+{"level":"info","message":"Request Url: /api/comments/651e78c8dd1ca36f926ea0fa - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:27:18.047Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:27:41.799Z"}
+{"level":"info","message":"Request Url: /api/comments/651e800f87b2295b19e06c46 - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:28:21.129Z"}
+{"level":"info","message":"Request Url: /api/comments/651e800f87b2295b19e06c46 - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:29:22.654Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:29:41.577Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:30:18.934Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:30:20.251Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:30:43.701Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:30:54.653Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:31:33.030Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:31:48.828Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:32:13.001Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:32:14.128Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:35:06.728Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:35:41.149Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:35:45.960Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:36:24.536Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:36:28.127Z"}
+{"level":"info","message":"Request Url: /api/comments/651e802f87b2295b19e06c4a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:37:32.617Z"}
+{"level":"info","message":"Request Url: /api/comments/651e802f87b2295b19e06c4a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:37:37.878Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:38:00.087Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:38:12.139Z"}
+{"level":"info","message":"Request Url: /api/comments/651e78c8dd1ca36f926ea0fa - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:38:30.271Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:38:51.848Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:39:20.569Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:39:22.860Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:39:29.648Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:39:32.416Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:39:36.845Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:40:22.394Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:40:33.515Z"}
+{"level":"info","message":"Request Url: /api/comments/655b187d03feeaff4124488c - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:40:43.331Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:40:47.927Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1b41e5e9c94175eaf4f6 - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:41:09.385Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1b41e5e9c94175eaf4f6 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:41:16.264Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1b41e5e9c94175eaf4f6 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:41:26.816Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"Cool\"}","service":"request-logging","timestamp":"2023-11-20T08:42:04.461Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:42:26.645Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:42:35.227Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:43:02.125Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:43:19.068Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:43:25.778Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:44:25.582Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:44:40.845Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1b44e5e9c94175eaf4f9 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:44:58.985Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"Cool\"}","service":"request-logging","timestamp":"2023-11-20T08:45:19.241Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:46:03.077Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"Cool Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:46:21.596Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1bdce5e9c94175eaf508 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:47:05.708Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:47:09.630Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:47:12.400Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"Cool Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:48:40.130Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:48:53.784Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1d68e5e9c94175eaf524 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:50:14.981Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1d68e5e9c94175eaf524 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:50:27.445Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"Cool Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:50:33.833Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:51:53.939Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:52:24.964Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1dd9e5e9c94175eaf52d - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:52:50.722Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1dd9e5e9c94175eaf52d - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:52:52.443Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1dd9e5e9c94175eaf52d - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:52:57.623Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1e29e5e9c94175eaf531 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:53:10.354Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1e29e5e9c94175eaf531 - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:53:21.579Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:53:45.662Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:54:29.821Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1e29e5e9c94175eaf531 - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:54:54.524Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1e99e5e9c94175eaf53d - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:55:02.461Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1e99e5e9c94175eaf53d - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:55:07.152Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:55:09.946Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1dd9e5e9c94175eaf52d - Request Body: {\"content\":\"Amazing Brother\"}","service":"request-logging","timestamp":"2023-11-20T08:55:21.607Z"}
+{"level":"info","message":"Request Url: /api/comments/655a1f200f7e93cb23f1555a - Request Body: {\"content\":\"This is a nice post\"}","service":"request-logging","timestamp":"2023-11-20T08:55:34.437Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1dd9e5e9c94175eaf52d - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T08:55:47.764Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1dd9e5e9c94175eaf52d - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:56:05.189Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1e99e5e9c94175eaf53d - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:56:18.872Z"}
+{"level":"info","message":"Request Url: /api/comments/655b1f06e5e9c94175eaf54a - Request Body: {\"content\":\"What is your name\"}","service":"request-logging","timestamp":"2023-11-20T08:56:34.180Z"}
+{"level":"info","message":"Request Url: /api/likes/655a1f200f7e93cb23f1555a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T08:57:42.074Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T08:58:01.523Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Comment\"}","service":"request-logging","timestamp":"2023-11-20T08:58:19.273Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Comment\"}","service":"request-logging","timestamp":"2023-11-20T08:59:07.381Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Comment\"}","service":"request-logging","timestamp":"2023-11-20T08:59:51.216Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Comme\"}","service":"request-logging","timestamp":"2023-11-20T09:00:15.320Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Post\"}","service":"request-logging","timestamp":"2023-11-20T09:00:25.710Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"comment\"}","service":"request-logging","timestamp":"2023-11-20T09:00:36.229Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Comment\"}","service":"request-logging","timestamp":"2023-11-20T09:01:04.085Z"}
+{"level":"info","message":"Request Url: /api/likes/655b1f06e5e9c94175eaf54a - Request Body: {\"type\":\"Comment\"}","service":"request-logging","timestamp":"2023-11-20T09:01:09.257Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:01:20.138Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:01:32.782Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655a1f200f7e93cb23f1555a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:01:38.381Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54a?type=Post - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:02:07.144Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:02:17.510Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54a?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:02:28.855Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:02:48.445Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54a?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:02:53.919Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54a?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:03:15.749Z"}
+{"level":"info","message":"Request Url: /api/likes/toggle/655b1f06e5e9c94175eaf54a?type=Comment - Request Body: {}","service":"request-logging","timestamp":"2023-11-20T09:03:22.064Z"}
