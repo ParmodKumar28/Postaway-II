@@ -5,78 +5,101 @@ import handleDatabaseError from "../../../errors/databaseError.js";
 import { FriendshipModel } from "../Schema/friends.schema.js";
 
 export default class FriendRepository{
+
+        // Get a user's friends.
+        async getFriends(userID) {
+            try {
+                const friends = await FriendshipModel.find({
+                    user: new ObjectId(userID),
+                    status: "accepted"
+                }).populate('friend', 'username');
+                if (friends.length === 0) {
+                    throw new ApplicationError("User has no friends yet. Let's add someone.", 404);
+                }
+                return friends;
+            } catch (error) {
+                handleDatabaseError(error);
+            }
+        }
     
-    // Get a user's friends.
-    async getFriends(userID)
-    {
-        try {
-            const friends = await FriendshipModel.find({
-                user: new ObjectId(userID),
-                status: 'accepted'
-            }).populate('friend', 'username');
-            if(friends.length == 0)
-            {
-                throw new ApplicationError("User has no friends let's add someone.", 404);
+        // Get pending friend requests.
+        async getPendingRequests(userID) {
+            try {
+                const pendingRequests = await FriendshipModel.find({
+                    friend: new ObjectId(userID),
+                    status: 'pending'
+                }).populate('user', 'username');
+                if (pendingRequests.length === 0) {
+                    throw new ApplicationError("User has no pending friend requests.", 404);
+                }
+                return pendingRequests;
+            } catch (error) {
+                handleDatabaseError(error);
             }
-            return friends;
-        } catch (error) {
-            handleDatabaseError(error);
         }
-    }
-
-    // Get pending friend requests.
-    async getPendingRequests(userID)
-    {
-        try {
-            const pendingRequests = await FriendshipModel.find({
-                user: new ObjectId(userID),
-                status: 'pending'
-            }).populate('friend', 'user');
-            if(pendingRequests == 0)
-            {
-                throw new ApplicationError("User has no pending friend request.", 404);
+    
+        // Toggle friendship with another user.
+        async toggleFriendship(userID, friendId) {
+            try {
+                const existingFriendship = await FriendshipModel.findOne({
+                    $or: [
+                        { user: new ObjectId(userID), friend: new ObjectId(friendId) },
+                        { user: new ObjectId(friendId), friend: new ObjectId(userID) }
+                    ]
+                });
+        
+                if (existingFriendship) {
+                    if (existingFriendship.status === 'pending') {
+                        // Friendship exists as a pending request, delete the pending request
+                        await FriendshipModel.deleteOne({
+                            $or: [
+                                { user: new ObjectId(userID), friend: new ObjectId(friendId) },
+                                { user: new ObjectId(friendId), friend: new ObjectId(userID) }
+                            ],
+                            status: 'pending'
+                        });
+                        return { message: "Friend request cancelled." };
+                    } else if (existingFriendship.status === 'accepted') {
+                        // Friendship exists and is accepted, delete it
+                        await FriendshipModel.deleteOne({
+                            $or: [
+                                { user: new ObjectId(userID), friend: new ObjectId(friendId) },
+                                { user: new ObjectId(friendId), friend: new ObjectId(userID) }
+                            ]
+                        });
+                        return { message: "Friend removed." };
+                    }
+                } else {
+                    // Friendship doesn't exist, create a new pending request
+                    const newFriendship = new FriendshipModel({
+                        user: new ObjectId(userID),
+                        friend: new ObjectId(friendId),
+                        status: 'pending'
+                    });
+                    await newFriendship.save();
+                    return { message: "Friend request sent." };
+                }
+            } catch (error) {
+                handleDatabaseError(error);
             }
-            return pendingRequests;
-        } catch (error) {
-            handleDatabaseError(error);
         }
-    }
-
-    // Toggle friendship with another user.
-    async toggleFriendship(userID, friendId)
-    {
-        try {
-        // Check if a friendship already exists
-        let friendship = await FriendshipModel.findOne({ user: userID, friend: friendId });
-        
-        if (friendship) {
-            // If it exists, remove it
-            await FriendshipModel.deleteOne({ _id: friendship._id });
-        } else {
-            // If it doesn't exist, create it
-            friendship = new FriendshipModel({ user: userID, friend: friendId, status: 'pending' });
-            await friendship.save();
+    
+        // Accept or reject a friend request.
+        async respondToRequest(userID, friendId, response) {
+            try {
+                // Find the friendship
+                let friendship = await FriendshipModel.findOne({ user: new ObjectId(friendId), friend: new ObjectId(userID), status: 'pending' });
+    
+                if (friendship) {
+                    // Update the status based on the response
+                    friendship.status = response;
+                    await friendship.save();
+                    return { message: `Friend request ${response}.` };
+                } else {
+                    throw new ApplicationError('Friend request not found', 404);
+                }
+            } catch (error) {
+                handleDatabaseError(error);
+            }
         }
-        } catch (error) {
-            handleDatabaseError(error);
-        }
-    }
-
-    // Accept or reject a friend request.
-    async respondToRequest(userID, friendId, response){
-        try {
-        // Find the friendship
-        let friendship = await FriendshipModel.findOne({ user: friendId, friend: userID, status: 'pending' });
-        
-        if (friendship) {
-            // Update the status based on the response
-            friendship.status = response;
-            await friendship.save();
-        } else {
-            throw new ApplicationError('Friend request not found', 404);
-        }
-        } catch (error) {
-            handleDatabaseError(error);
-        }
-    }
 }
