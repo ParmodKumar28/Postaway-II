@@ -123,10 +123,12 @@ export default class UserRepository{
         }
 
         // Uploading avatar for user profile
-        async avatarUpload(avatar, userID)
-        {
+        async avatarUpload(avatar, userID) {
             try {
                 const user = await UserModel.findById(userID);
+                if (!user) {
+                    throw new ApplicationError("User not found", 404);
+                }
                 user.avatar = avatar;
                 return await user.save();
             } catch (error) {

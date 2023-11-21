@@ -128,6 +128,15 @@ export default class PostRepository{
     // Updating post by id.
     async update(postId, userID, updatedPostData) {
         try {
+            const post = await PostModel.findById(postId);
+            if(!post)
+            {
+                throw new ApplicationError("No post exist on this id.", 404);
+            }
+            if(String(post.user) !== userID)
+            {
+                throw new ApplicationError("You are not allowed to delete this post.", 404);
+            }
             const updatedPost = await PostModel.findByIdAndUpdate(postId, updatedPostData, { new: true })
                 .populate({
                     path: 'user',
@@ -141,10 +150,6 @@ export default class PostRepository{
                     path: 'likes',
                     select: '-_id'
                 });
-
-            if (!updatedPost || String(updatedPost.user._id) !== userID) {
-                throw new ApplicationError("No post exist on this id or you're not allowed to update this post.", 404);
-            }
 
             // Adding likes counts and comments counts.
             const postWithCounts = {

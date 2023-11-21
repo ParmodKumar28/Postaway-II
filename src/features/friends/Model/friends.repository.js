@@ -4,12 +4,18 @@ import { ObjectId } from "mongodb";
 import ApplicationError from "../../../errors/applicationError.js";
 import handleDatabaseError from "../../../errors/databaseError.js";
 import { FriendshipModel } from "../Schema/friends.schema.js";
+import { UserModel } from "../../user/Schema/user.schema.js";
 
 export default class FriendRepository{
 
         // Get a user's friends.
         async getFriends(userID) {
             try {
+                const user = await UserModel.findById(userID);
+                if (!user) {
+                    throw new ApplicationError("User not found", 404);
+                }
+
                 const friends = await FriendshipModel.find({
                 $or:[
                 {
@@ -33,6 +39,11 @@ export default class FriendRepository{
         // Get pending friend requests.
         async getPendingRequests(userID) {
             try {
+                const user = await UserModel.findById(userID);
+                if (!user) {
+                    throw new ApplicationError("User not found", 404);
+                }
+
                 const pendingRequests = await FriendshipModel.find({
                     friend: new ObjectId(userID),
                     status: 'pending'
@@ -49,6 +60,11 @@ export default class FriendRepository{
         // Toggle friendship with another user.
         async toggleFriendship(userID, friendId) {
             try {
+                const user = await UserModel.findById(friendId);
+                if (!user) {
+                    throw new ApplicationError("User not found", 404);
+                }
+
                 const existingFriendship = await FriendshipModel.findOne({
                     $or: [
                         { user: new ObjectId(userID), friend: new ObjectId(friendId) },
@@ -77,6 +93,11 @@ export default class FriendRepository{
                         });
                         return { message: "Friend removed." };
                     }
+                    else if (existingFriendship.status === 'rejected') {
+                        // Friendship exists and is rejected
+
+                        return { message: "Your request is rejected." };
+                    }
                 } else {
                     // Friendship doesn't exist, create a new pending request
                     const newFriendship = new FriendshipModel({
@@ -96,7 +117,7 @@ export default class FriendRepository{
         async respondToRequest(userID, friendId, response) {
             try {
                 // Find the friendship
-                let friendship = await FriendshipModel.findOne({ user: new ObjectId(userID), friend: new ObjectId(friendId), status: 'pending' });
+                let friendship = await FriendshipModel.findOne({ user: new ObjectId(friendId), friend: new ObjectId(userID), status: 'pending' });
                 if (friendship) {
                     // Update the status based on the response
                     friendship.status = response;
