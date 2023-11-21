@@ -21,8 +21,7 @@ export default class OtpController{
             }
             return res.status(200).json({
                 success: true,
-                otp: otp,
-                msg: "otp generated"
+                msg: `otp send to ${email} valid for 1 minute.`
             })
         } catch (error) {
             next(error);

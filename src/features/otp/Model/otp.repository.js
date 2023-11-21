@@ -5,9 +5,10 @@ import { UserModel } from '../../user/Schema/user.schema.js';
 import ApplicationError from '../../../errors/applicationError.js';
 import { OtpModel } from '../Schema/otp.schema.js';
 import bcrypt from 'bcrypt';
+import nodemailer from 'nodemailer';
+import sendMail from '../../../middlewares/mailSend.middleware.js';
 
-export default class OtpRepository{
-    
+export default class OtpRepository{    
     // Send an OTP for password reset.
     async send(email)
     {
@@ -23,6 +24,8 @@ export default class OtpRepository{
                 user: email
             });
             await newOtp.save();
+            // Sending otp on email to the user;
+            sendMail(email,otp);
             return otp;
         } catch (error) {
             handleDatabaseError(error);
@@ -45,7 +48,7 @@ export default class OtpRepository{
             }
 
             // Verifying if otp is expired or not here.
-            const otpExpirationDuration = 5 * 60 * 100;
+            const otpExpirationDuration = 60 * 1000;
             if(otpRecord.createdAt.getTime() + otpExpirationDuration < Date.now()){
                 throw new ApplicationError("Expired OTP.", 400);
             }
