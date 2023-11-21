@@ -1,3 +1,4 @@
+// Otp controllers which links to routes and the model.
 // Imports
 import ApplicationError from "../../../errors/applicationError.js";
 import OtpRepository from "../Model/otp.repository.js";

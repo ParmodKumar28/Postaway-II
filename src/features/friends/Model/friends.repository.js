@@ -1,3 +1,4 @@
+// Friends model is here or repository and all database activities is happening here.
 // Imports
 import { ObjectId } from "mongodb";
 import ApplicationError from "../../../errors/applicationError.js";
@@ -10,9 +11,16 @@ export default class FriendRepository{
         async getFriends(userID) {
             try {
                 const friends = await FriendshipModel.find({
+                $or:[
+                {
                     user: new ObjectId(userID),
                     status: "accepted"
-                }).populate('friend', 'username');
+                },
+                {
+                    friend: new ObjectId(userID),
+                    status: "accepted"
+                }]
+            }).populate('user', 'name').populate('friend', 'name', );
                 if (friends.length === 0) {
                     throw new ApplicationError("User has no friends yet. Let's add someone.", 404);
                 }
@@ -28,7 +36,7 @@ export default class FriendRepository{
                 const pendingRequests = await FriendshipModel.find({
                     friend: new ObjectId(userID),
                     status: 'pending'
-                }).populate('user', 'username');
+                }).populate('user', 'name',);
                 if (pendingRequests.length === 0) {
                     throw new ApplicationError("User has no pending friend requests.", 404);
                 }
@@ -88,8 +96,7 @@ export default class FriendRepository{
         async respondToRequest(userID, friendId, response) {
             try {
                 // Find the friendship
-                let friendship = await FriendshipModel.findOne({ user: new ObjectId(friendId), friend: new ObjectId(userID), status: 'pending' });
-    
+                let friendship = await FriendshipModel.findOne({ user: new ObjectId(userID), friend: new ObjectId(friendId), status: 'pending' });
                 if (friendship) {
                     // Update the status based on the response
                     friendship.status = response;

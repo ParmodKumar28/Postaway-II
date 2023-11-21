@@ -1,3 +1,5 @@
+// Middleware for creating token for user using jwt library.
+
 import jwt from "jsonwebtoken";
 
 const jwtAuth = (req,res,next)=>{

@@ -1,3 +1,4 @@
+// Friends controller is here pass data to the repository.
 // Imports
 import ApplicationError from "../../../errors/applicationError.js";
 import FriendRepository from "../Model/friends.repository.js";
@@ -9,7 +10,7 @@ export default class FriendController{
         this.friendRepository = new FriendRepository();
     }
 
-        // Get a user's friends.
+    // Get a user's friends.
     async getFriends(req, res, next) {
         try {
             const userID = req.params.userId;

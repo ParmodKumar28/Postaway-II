@@ -1,3 +1,4 @@
+// Like repository adding like and removing and getting likes here.
 // Imports 
 import { ObjectId } from "mongodb";
 import ApplicationError from "../../../errors/applicationError.js";
@@ -24,8 +25,10 @@ export default class LikeRepository{
             }
 
             const likes = await LikeModel.find({ likeable: new ObjectId(id), on_model: type })
-                .populate('user')
-                .populate('likeable');
+            .populate({
+                path: 'user',
+                select: 'name email _id' // Specify the fields to include
+            }).populate('likeable');
 
             if (likes.length === 0) {
                 throw new ApplicationError(`There are no likes for this ${type.toLowerCase()}.`, 404);
@@ -61,6 +64,12 @@ export default class LikeRepository{
 
             if (existingLike) {
                 await LikeModel.findByIdAndDelete(existingLike._id);
+            // Remove like from the respective array (post or comment)
+            const index = likeable.likes.indexOf(existingLike._id);
+            if (index > -1) {
+                likeable.likes.splice(index, 1);
+                await likeable.save();
+            }
                 return { message: 'Like removed' };
             } else {
                 const newLike = new LikeModel({
@@ -68,9 +77,12 @@ export default class LikeRepository{
                     likeable: new ObjectId(likeableId),
                     on_model: type,
                 });
-                const liked = await newLike.save();
+                const liked = await newLike.save(); 
                 if(liked)
                 {
+                    // Add like to the respective array (post or comment)
+                    likeable.likes.push(newLike._id);
+                    await likeable.save();
                     return { message: 'Like added' };
                 } 
             }

@@ -1,3 +1,5 @@
+// Otp databse activties are happening here.
+
 // Imports
 import otpGenerator from 'otp-generator';
 import handleDatabaseError from "../../../errors/databaseError.js";

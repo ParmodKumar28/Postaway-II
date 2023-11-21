@@ -1,3 +1,4 @@
+// Posts controller which links with routes and models here.
 // Imports
 import ApplicationError from "../../../errors/applicationError.js";
 import PostRepository from "../Model/post.repository.js";
@@ -104,7 +105,7 @@ export default class PostController{
                 msg: "Post updated successfully."
             });
         } catch (error) {
-            next(error);
+           next(error);
         }
     }
     

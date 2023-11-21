@@ -1,3 +1,4 @@
+// Comment schema is here comment should have these fields.
 import mongoose from "mongoose";
 
 export const commentSchema = mongoose.Schema({
@@ -24,4 +25,5 @@ export const commentSchema = mongoose.Schema({
     ]
 });
 
+// Comment model
 export const CommentModel = mongoose.model('Comment', commentSchema);

@@ -1,3 +1,4 @@
+// Comments controller file which pass data to model.
 // Imports
 import ApplicationError from "../../../errors/applicationError.js";
 import CommentRepository from "../Model/comment.repository.js";

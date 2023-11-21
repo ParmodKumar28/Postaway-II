@@ -22,15 +22,12 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-// Logging requests
-app.use(loggerMiddleware);
-
 // Routes related to all features
 app.use('/api/users', userRouter);
-app.use('/api/posts', postRouter);
-app.use('/api/comments', commentRouter);
-app.use('/api/likes', likeRouter);
-app.use('/api/friends', friendsRouter);
+app.use('/api/posts',loggerMiddleware, postRouter);
+app.use('/api/comments',loggerMiddleware, commentRouter);
+app.use('/api/likes',loggerMiddleware, likeRouter);
+app.use('/api/friends',loggerMiddleware, friendsRouter);
 
 // Additional features
 app.use('/api/otp', otpRouter);

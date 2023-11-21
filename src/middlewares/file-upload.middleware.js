@@ -1,3 +1,5 @@
+// File uploading middleware using the multer library.
+
 // 1. Import multer and fs.
 import multer from "multer";
 import fs from 'fs';

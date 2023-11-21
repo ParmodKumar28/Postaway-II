@@ -1,3 +1,5 @@
+// Otp schema otp should have these fields.
+
 import mongoose from "mongoose";
 
 export const otpSchema = new mongoose.Schema({

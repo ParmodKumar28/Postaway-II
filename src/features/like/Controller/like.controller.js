@@ -1,3 +1,5 @@
+// Likes controller all functions which pass data to like model.
+
 // Imports
 import ApplicationError from "../../../errors/applicationError.js";
 import LikeRepository from "../Model/like.repository.js";

@@ -1,3 +1,5 @@
+// Middleware to log user requests and used winston library here.
+
 import winston from 'winston';
 
 const logger = winston.createLogger({

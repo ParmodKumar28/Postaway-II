@@ -1,3 +1,5 @@
+// User schema conatins the fields which a user should have.
+
 import mongoose from "mongoose";
 
 // User schema
@@ -6,6 +8,9 @@ export const userSchema = new mongoose.Schema({
         type: String,
         required: [true, "Please enter name"],
         maxLength: [25, "Name can't be greater than 25 characters"],
+    },
+    avatar: {
+        type: String,
     },
     email: {
         type: String,
@@ -20,7 +25,14 @@ export const userSchema = new mongoose.Schema({
     gender: {
         type: String,
         required: [true, "Please enter gender."]
-    }
+    },
+    posts: [
+        {
+            type: mongoose.Schema.ObjectId,
+            ref: 'Post'
+        }
+    ],
+    token: [String]
 });
 
 // User Model

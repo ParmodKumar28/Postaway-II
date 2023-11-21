@@ -1,3 +1,4 @@
+// Friend schema each friend should have these fields.
 import mongoose from "mongoose";
 
 export const friendSchema = new mongoose.Schema({
@@ -18,5 +19,6 @@ export const friendSchema = new mongoose.Schema({
     }
 }, {timestamps: true});
 
+// Friend Model
 export const FriendshipModel = mongoose.model('Friendship', friendSchema);
 

@@ -1,3 +1,5 @@
+// Post schema is here all post have these fields.
+
 import mongoose from "mongoose";
 
 export const postSchema = new mongoose.Schema({

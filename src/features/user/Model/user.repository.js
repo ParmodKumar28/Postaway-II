@@ -1,3 +1,4 @@
+// User repository file here all user database functions are handled.
 // Imports
 import mongoose from "mongoose";
 import ApplicationError from '../../../errors/applicationError.js'
@@ -40,7 +41,7 @@ export default class UserRepository{
     async findById(id)
     {
         try {
-            const user = await UserModel.findById(id).select('-password');
+            const user = await UserModel.findById(id).select('-password  -token').populate('posts');
             if(!user)
             {
                 throw new ApplicationError("No user found by this id", 400);
@@ -55,7 +56,8 @@ export default class UserRepository{
     async findAllUsers()
     {
         try {
-            const users = await UserModel.find({}, {password: 0});
+            const users = await UserModel.find({}, {password: 0, token: 0}).populate('posts');
+            
             if(users.length == 0)
             {
                 throw new  ApplicationError("No users are there.", 400);
@@ -70,7 +72,7 @@ export default class UserRepository{
     async updateById(id, user)
     {
         try {
-            const updatedUser = await UserModel.findByIdAndUpdate(id, user, {new: true}).select('-password');
+            const updatedUser = await UserModel.findByIdAndUpdate(id, user, {new: true}).select('-password -tokens').populate('posts');
             if(!updatedUser)
             {
                 throw new ApplicationError("No user found by this id", 400);
@@ -81,5 +83,55 @@ export default class UserRepository{
         }
 
     }
+
+        // Log out the user from a single device
+        async logout(userId, token) {
+            try {
+                const user = await UserModel.findById(userId);
+    
+                if (!user) {
+                    throw new ApplicationError("User not found", 404);
+                }
+    
+                // Remove the provided token from the user's tokens array
+                user.token = user.token.filter(t => t !== token);
+                await user.save();
+                
+                return { message: "Logged out successfully from this device" };
+            } catch (error) {
+                handleDatabaseError(error);
+            }
+        }
+    
+        // Log out the user from all devices
+        async logoutAllDevices(userId) {
+            try {
+                const user = await UserModel.findById(userId);
+    
+                if (!user) {
+                    throw new ApplicationError("User not found", 404);
+                }
+    
+                // Clear all tokens from the user's tokens array
+                user.token = [];
+                await user.save();
+    
+                return { message: "Logged out successfully from all devices" };
+            } catch (error) {
+                handleDatabaseError(error);
+            }
+        }
+
+        // Uploading avatar for user profile
+        async avatarUpload(avatar, userID)
+        {
+            try {
+                const user = await UserModel.findById(userID);
+                user.avatar = avatar;
+                return await user.save();
+            } catch (error) {
+                handleDatabaseError(error);
+            }
+        }
 
 }

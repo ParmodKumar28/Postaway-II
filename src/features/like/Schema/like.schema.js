@@ -1,3 +1,4 @@
+// Like schema like should have these fields.
 import mongoose from "mongoose";
 
 export const likeSchema = new mongoose.Schema({
@@ -17,4 +18,5 @@ export const likeSchema = new mongoose.Schema({
     }
 });
 
+// Like Model
 export const LikeModel = mongoose.model('Like', likeSchema);

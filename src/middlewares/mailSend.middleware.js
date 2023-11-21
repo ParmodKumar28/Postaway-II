@@ -28,5 +28,3 @@ const sendMail = (email,otp)=>{
 }
 
 export default sendMail;
-
-

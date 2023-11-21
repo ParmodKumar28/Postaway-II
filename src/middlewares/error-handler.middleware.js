@@ -1,3 +1,5 @@
+// Error handling middleware all errors are handled here
+
 import ApplicationError from "../errors/applicationError.js";
 import mongoose from "mongoose";
 

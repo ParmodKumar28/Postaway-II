@@ -2,6 +2,7 @@
 import express from 'express';
 import UserController from '../Controller/user.controller.js';
 import jwtAuth from '../../../middlewares/jwt.middleware.js';
+import { upload } from '../../../middlewares/file-upload.middleware.js';
 
 // 2. Initialize Express router.
 const userRouter = express.Router();
@@ -48,6 +49,11 @@ userRouter.get('/get-all-details', jwtAuth, (req,res,next)=>{
 // Update user details while ensuring that sensitive data like passwords remains secure and undisclosed.
 userRouter.put('/update-details/:userId', jwtAuth, (req,res,next)=>{
     usersController.UpdateUser(req,res,next);
+});
+
+// Avatar upload for the user profile;
+userRouter.post('/avatar-upload', jwtAuth, upload.single('avatar'), (req,res,next)=>{
+    usersController.avatarUpload(req,res,next);
 });
 
 // Exporting Router

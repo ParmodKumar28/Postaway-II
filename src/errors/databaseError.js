@@ -1,3 +1,4 @@
+//  Databse error handler function here.
 import ApplicationError from "./applicationError.js";
 import mongoose from "mongoose";
 

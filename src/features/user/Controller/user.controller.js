@@ -1,8 +1,10 @@
+// Controller file of the users which becomes mediator between routes and model file here.
 // Imports
 import bcrypt from 'bcrypt';
 import ApplicationError from "../../../errors/applicationError.js";
 import UserRepository from "../Model/user.repository.js";
 import jwt from 'jsonwebtoken';
+import { UserModel } from '../Schema/user.schema.js';
 
 // UserController class
 export default class UserController{
@@ -94,23 +96,44 @@ export default class UserController{
         }
     }
 
-    // Log out the currently logged-in user.
-    async Logout(req,res,next){
-        try {
-
-        } catch (error) {
-            next(error);
-        }
-    }
+        // Log out the currently logged-in user.
+        async Logout(req, res, next) {
+            try {
+                const token = req.headers.authorization.replace("Bearer", "");
+                const userId = req.userID;
     
-    // Log out the user from all devices.
-    async LogoutFromAllDevices(req,res,next){
-        try {
-            
-        } catch (error) {
-            next(error);
+                const result = await this.userRepository.logout(userId, token);
+                if (!result) {  
+                    throw new ApplicationError("Logout failed", 400);
+                }
+    
+                return res.status(200).json({
+                    success: true,
+                    message: result.message
+                });
+            } catch (error) {
+                next(error);
+            }
         }
-    }
+        
+        // Log out the user from all devices.
+        async LogoutFromAllDevices(req, res, next) {
+            try {
+                const userId = req.userID;
+    
+                const result = await this.userRepository.logoutAllDevices(userId);
+                if (!result) {
+                    throw new ApplicationError("Logout from all devices failed", 400);
+                }
+    
+                return res.status(200).json({
+                    success: true,
+                    message: result.message
+                });
+            } catch (error) {
+                next(error);
+            }
+        }
 
 
     // User Profile Routes.
@@ -182,6 +205,28 @@ export default class UserController{
                 success: true,
                 updatedUser: updatedUser,
                 message: "User updated successfully"
+            });
+        } catch (error) {
+            next(error);
+        }
+    }
+
+    // Uploading Avatar
+    async avatarUpload(req,res,next){
+        try {
+            const avatar = req.file.filename;
+            const userID = req.userID;
+            if(!avatar){
+                throw new ApplicationError("Avatar not recieved please add avatar.", 404);
+            }
+            const result = await this.userRepository.avatarUpload(avatar, userID);
+            if(!result)
+            {
+                throw new ApplicationError("Avatar not uploaded something went wrong.", 400);
+            }
+            return res.status(201).json({
+                success: true,
+                msg: "Avatar uploaded to your profile cheers :)"
             });
         } catch (error) {
             next(error);
